@@ -69,7 +69,7 @@ Set up Autoware development environment
 
    #The NVIDIA library and cuda driver installation are disabled as they are already installed with the JetPack. If you force the cuda driver installation here, it can mess up the kernel and cause errors at bootup. You will need to reflash the JetPack if this happens.
 
-3. Under the `autoware` folder, go to the `autoware.repos` file and change the version of `universe/autoware.universe` from `galactic` to `f1tenth_galactic`
+3. Under the `autoware` folder, go to the `autoware.repos` file and change the version of `universe/autoware.universe` from `galactic` to `f1tenth_galactic`. Additionally change the url to https://github.com/THIMCAutonomousDriving/autoware_universe.git
 
 
 Set up Autoware workspace  
