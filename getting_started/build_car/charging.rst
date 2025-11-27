@@ -1,4 +1,4 @@
-.. _doc_build_car:
+.. _doc_build_charging:
 
 Charging the Battery
 =====================
