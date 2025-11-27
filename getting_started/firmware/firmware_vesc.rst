@@ -56,7 +56,7 @@ Launch the VESC Tool. On the Welcome page, press the **AutoConnect** button on b
 
 The first thing you'll need to do is to update the firmware onboard the VESC. Depending on the version of the VESC tool you're using, you'll need to go through different steps to enable servo out from the ppm port on the VESC.
 
-With VESC Tool versions released after Mar. 31 2021, you can use the latest default firmware. And to enable servo out, go to **App Settings** > **General** > **Enable Servo Output** in the VESC Tool to enable servo out.
+With VESC Tool versions released after Mar. 31 2021, you can use the latest default firmware. And to enable servo out, go to **App Settings** > **General** > **Enable Servo Output** in the VESC Tool and click on **Write App Configuration** button to enable servo out. Switch to the **Controls** tab and use the slider to adjust servo position.
 
 .. figure:: img/vesc/servo.png
 	:align: center
