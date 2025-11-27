@@ -2,7 +2,7 @@
 
 Charging the Batteries
 =====================
-In this section we will be discussing the procedure to be followed and safe practices while charging the LiPo battery. 
+In this section we will be discussing the procedure and safe practices for charging the LiPo battery. 
 
 **Equipment Required:**
 	* LiPo Battery 
@@ -12,27 +12,43 @@ In this section we will be discussing the procedure to be followed and safe prac
 	
 **Approximate Time Investment:** 5 minutes - 45 minutes
 
-There are two LiPo batteries each from the two 1:10 scale roboracer cars. Each battery has 3 cells each of 4.2V adding up to a total full charge voltage of 12.6V. 
+The battery used in the car is LiPo (Lithium-Polymer) battery. The battery has 3 cells of 4.2V adding up to a total full charge voltage of 12.6V. 
+
+.. figure:: img/charging/lipo_battery.JPG
+	:align: center
 
 .. note::
-  Always make sure not to drain the battery too much before charging so that the battery life is not affected (preferably at 11V). 
+  Always make sure not to drain the battery too much before charging so that the cells are not affected (preferably at 11V). 
 
 Charging Setup
 -----------------------
 
-Absima Charger is used to charge both of the batteries. 
+Absima Charger is used to charge the battery. 
 
-The charger settings should match the configurations of the battery model and ratings: 
+.. figure:: img/charging/abisma_charger.JPG
+	:align: center
+	
+#. Connect the low voltage cable to the charger and select Battery Meter in the charger to measure the cell-wise battery voltage. 
+
+.. figure:: img/charging/battery_meter.JPG
+	:align: center
+
+#. Place the battery inside the LiPo Safe bag (if necessary place 1 bag of fireballs inside) and close the bag. 
+#. The charger settings should match the battery model and ratings. 
 	* Model – LiPo 3S 
 	* C=5000mAh 
 	* Amps – 5A (for balanced charging) 
 	
-#. Connect the low voltage cable to the charger and select Battery Meter in the charger to measure the cell-wise battery voltage. 
-#. Place the battery inside the LiPo Safe bag and if necessary place 1 bag of fireballs inside the bag and close the bag. 
-#. Connect both low voltage and high voltage cables to the charger. 
-#. Start the charging process. 
+.. figure:: img/charging/charging_config.JPG
+	:align: center
+		
+#. Connect both low voltage and high voltage cables to the charger and start the charging process. 
+
+.. figure:: img/charging/lipo_safe.JPG
+	:align: center
+
 #. Never leave the batteries unattended while charging. 
 #. Once charging is complete, reset everything back and unplug the battery from the charger and the charger from the electric port. 
 
 .. note::
-  In case if the batteries are drained too much, configure the charger to 1A. 
+  In case if the battery is drained too much, configure the charger to 1A. 
