@@ -186,7 +186,7 @@ Terminal 2
    cd autoware && . install/setup.bash
    ros2 launch slam_toolbox online_async_launch.py slam_params_file:=/home/f1tenth/autoware/src/universe/autoware.universe/f1tenth/f1tenth_system/f1tenth_stack/config/f1tenth_online_async.yaml
 
-3. Launch RViz2, Add `/map` by topic. Add `/graph_visualization` by topic. On the top left corner of rviz, panels – add new panel – add SlamToolBoxPlugin panel. Once you’re done mapping, save the map using the plugin. You can give it a name in the text box next to Save Map. Map will be saved in whichever directory you run slam_toolbox.
+3. Launch RViz2, Add `/map` by topic. Add `/graph_visualization` by topic. On the top left corner of rviz, panels – add new panel – add SlamToolBoxPlugin panel. Drive slow and steady and if you are running a loop, circle twice to achieve loop closure. Once you’re done mapping, save the map using the plugin. You can give it a name in the text box next to Save Map. Map will be saved in whichever directory you run slam_toolbox.
 
 
 .. raw:: html
