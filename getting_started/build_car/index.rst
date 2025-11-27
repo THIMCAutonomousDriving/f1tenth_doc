@@ -16,6 +16,7 @@ There are three main sections to the car.
 #. Then, we put together all of the :ref:`Autonomy Elements <doc_build_autonomy_elements>`.
 #. Next, all of the Autonomy Elements will be mounted on the :ref:`Upper Level Chassis <doc_build_upper_level>`.
 #. Finally, the Upper Level Chassis will be :ref:`connected <doc_build_all_together>` with the Lower Level Chassis.
+#. Then we will :ref:`charge <doc_build_charging>` the battery and mount it on the Lower Level Chassis.
 
 .. danger::
 	**LIPO (LITHIUM POLYMER) BATTERY SAFETY WARNING**
@@ -48,3 +49,6 @@ There are three main sections to the car.
    autonomy_elements
    upper_level_chassis
    all_together
+   charging
+
+	
