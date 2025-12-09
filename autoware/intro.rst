@@ -287,7 +287,7 @@ Terminal 1
    cd autoware && . install/setup.bash
    ros2 launch launch_autoware_f1tenth realcar_launch.py
 
-2. Launch the `particle_filter` node for localization. You need the library range_libc to utilize the GPU. For instructions on setup, see `particle_filter <https://github.com/autowarefoundation/autoware.universe/tree/f1tenth_galactic/f1tenth/particle_filter>`_.
+2. Place the newly created map.pgm and map.yaml inside ~/autoware/src/universe/autoware.universe/f1tenth/particle_filter/maps and create links for both the files inside ~/autoware/install/particle_filter/maps. Modify ~/autoware/src/universe/autoware.universe/f1tenth/particle_filter/config/localize.yaml with the new map. Launch the `particle_filter` node for localization. You need the library range_libc to utilize the GPU. For instructions on setup, see `particle_filter <https://github.com/autowarefoundation/autoware.universe/tree/f1tenth_galactic/f1tenth/particle_filter>`_.
 
 Terminal 2
 
