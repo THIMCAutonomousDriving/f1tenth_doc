@@ -58,7 +58,7 @@ The charger settings should match the battery model and ratings:
 Connect both low voltage and high voltage cables to the charger and start the charging process by pressing and holding the **[Start]** button. 
 
 .. note::
-  If the battery is drained too much, unplug the low voltage balancer and configure the charger to 1A.
+  If the battery is drained too much or if there is a huge difference in voltage among the 3 cells (delta V), unplug the low voltage balancer and configure the charger from BAL-CHRG to CHARGE mode and amps to 1A.
 
 .. figure:: img/charging/lipo_safe.jpg
 	:align: center
