@@ -119,7 +119,9 @@ To create a step response for the motor, you can set a target RPM at the bottom 
 
 	.. Step response from the motor.
 
-You want to look for a clean step response that has a quick rise time and zero to very little steady state error. Adjust the gains accordingly by navigating to the **PID Controllers** tab under **Motor Settings** on the left, and change the Speed Controller gains. General rules of tuning PID gains apply. If you're seeing a lot of oscillations, try changing the Speed PID Kd Filter.
+You want to look for a clean step response that has a quick rise time and zero to very little steady state error. Adjust the gains accordingly by navigating to the **PID Controllers** tab under **Motor Settings** on the left, and change the Speed Controller gains. General rules of tuning PID gains apply. If you're seeing a lot of oscillations, try changing the Speed PID Kd Filter. 
+
+Moreover, make sure you have switched ``Allow Braking`` to TRUE if you want to apply braking current for better braking and deceleration.
 
 .. figure:: img/vesc/pid_gains.png
 	:align: center
