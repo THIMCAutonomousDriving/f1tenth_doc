@@ -9,6 +9,20 @@
 
 **Approximate Time Investment:** 1 hour
 
+**THI-Version**
+----------
+
+	#. Have jetson connected to display, mouse and keyboard
+	#. Connect to TP-Link hotspot OR open hotspot from jetson (go to WiFi settings, go on the small dot symbol in upper right corner, enable hotspot)
+	#. Connect your laptop to the same hotspot
+	#. use ip a on the jetson to get current IP address
+	#. use ``ip a`` on the jetson to get current IP address
+	#. from your laptop ``ssh f1tenth@xx.xx.xx.xx`` into the jetson (username may differ)
+	#. use tmux for multiple windows
+	#. start the stack by going into ``~/f1tenth_ws`` to source and then run ``ros2 launch f1tenth_stack bringup_launch``
+	#. if the ps4 controller does not work afterwards you might need to first unplug the keyboard and mouse from the jetson and launch the bringup again
+
+
 .. image:: img/combine/Setup2.png
 
 Overview
